@@ -912,3 +912,5 @@ message.channel.send(`**:moneybag: | ${message.author.username}, has transferrer
           fs.writeFile('profile.json', JSON.stringify(profile), (err) => {
 if (err) console.error(err);
 })
+
+client.login(process.env.BOT_TOKEN);        
