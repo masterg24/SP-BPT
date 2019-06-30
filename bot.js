@@ -29,26 +29,26 @@ client.on('message', message => {
 if (message.content.startsWith(prefix + 'help')) {
     let pages = [
 	`=-=-=-=-=-= 🌍 Public Commands - اوامر عامة 🌍 =-=-=-=-=-=
-     ✴ -sug =====> To Suggest | لعمل اقتراح
-    ✴ -id ======> To Show Your ID | ايدي حسابك
-    ✴ -ping ====> Ping Of Bot | بنج حك البوت
-    ✴ -allbots => Show All Bots In The Server | لاضهار جميع البوتات
-    ✴ -bot =====> Information Of The Bot | معلومات البوت
-    ✴ -server ==> Information Of The Server | معلومات السيرفر
-    ✴ -count ===> Member Count | عدد الاشخاص في السيرفر
-    ✴ -cal =====> To Calculate | اله لحاسبة 
-    ✴ -tag =====> To Tag A Word | لعمل تاق لكلمة 
-    ✴ -rooms ===> Show Rooms Of Server | اضهار الرومات الي في السيرفر
-    ✴ -za5 =====> To decorate Some Word | لزخرفة الكلمات
-    ✴ -roles ===> Show Roles Of The Server | اضهار الرانكات
-    ✴ -emojis ==> Emoji Of Server | ايموجيات السيرفر   
-    ✴ -say =====> The Bot Say Any Thing | تكرار اي شي كتبتو
-    ✴ -image ===> To Show Image Of Server | لاضهار صورة السيرف 
-    ✴ -contact => To Contact Owners Bot | مراسلة صاحب البوت
-    ✴ -invite \ -inv => Invite Bot | لدعوة البوت
-    ✴ -embed ===> To Embed | لتكرار اي شي كتبتو بطريقة حلوة
-    ✴ -avatar ==> Your Avatar | صورتك الشخصية
-    ✴ -support => Server Support | سيرفر الدعم الفني
+     ✴ s-sug =====> To Suggest | لعمل اقتراح
+    ✴ s-id ======> To Show Your ID | ايدي حسابك
+    ✴ s-ping ====> Ping Of Bot | بنج حك البوت
+    ✴ s-allbots => Show All Bots In The Server | لاضهار جميع البوتات
+    ✴ s-bot =====> Information Of The Bot | معلومات البوت
+    ✴ s-server ==> Information Of The Server | معلومات السيرفر
+    ✴ s-count ===> Member Count | عدد الاشخاص في السيرفر
+    ✴ s-cal =====> To Calculate | اله لحاسبة 
+    ✴ s-tag =====> To Tag A Word | لعمل تاق لكلمة 
+    ✴ s-rooms ===> Show Rooms Of Server | اضهار الرومات الي في السيرفر
+    ✴ s-za5 =====> To decorate Some Word | لزخرفة الكلمات
+    ✴ s-roles ===> Show Roles Of The Server | اضهار الرانكات
+    ✴ s-emojis ==> Emoji Of Server | ايموجيات السيرفر   
+    ✴ s-say =====> The Bot Say Any Thing | تكرار اي شي كتبتو
+    ✴ s-image ===> To Show Image Of Server | لاضهار صورة السيرف 
+    ✴ s-contact => To Contact Owners Bot | مراسلة صاحب البوت
+    ✴ s-invite \ -inv => Invite Bot | لدعوة البوت
+    ✴ s-embed ===> To Embed | لتكرار اي شي كتبتو بطريقة حلوة
+    ✴ s-avatar ==> Your Avatar | صورتك الشخصية
+    ✴ s-support => Server Support | سيرفر الدعم الفني
      ===========================================================
       React With ▶ To See Admins Commands`,
 	`=-=-=-=-=-= 🔧  Admin Commands - اوامر ادارية 🔧 =-=-=-=-=-=
